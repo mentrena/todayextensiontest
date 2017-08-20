@@ -1,0 +1,694 @@
+BCSymbolMap Version: 2.0
+-[QSCloudKitSynchronizer initWithContainerIdentifier:recordZoneID:changeManager:]
+-[QSCloudKitSynchronizer userDefaultsKeyForKey:]
+-[QSCloudKitSynchronizer deviceIdentifier]
+-[QSCloudKitSynchronizer setupCustomZoneWithCompletion:]
+___56-[QSCloudKitSynchronizer setupCustomZoneWithCompletion:]_block_invoke
+___56-[QSCloudKitSynchronizer setupCustomZoneWithCompletion:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_.86
+___destroy_helper_block_.87
++[QSCloudKitSynchronizer synchronizerMetadataKeys]
+___50+[QSCloudKitSynchronizer synchronizerMetadataKeys]_block_invoke
+-[QSCloudKitSynchronizer synchronizeWithCompletion:]
+___52-[QSCloudKitSynchronizer synchronizeWithCompletion:]_block_invoke
+___52-[QSCloudKitSynchronizer synchronizeWithCompletion:]_block_invoke_2
+___copy_helper_block_.113
+___destroy_helper_block_.114
+___copy_helper_block_.120
+___destroy_helper_block_.121
+-[QSCloudKitSynchronizer cancelSynchronization]
+-[QSCloudKitSynchronizer eraseLocal]
+-[QSCloudKitSynchronizer eraseRemoteAndLocalDataWithCompletion:]
+___64-[QSCloudKitSynchronizer eraseRemoteAndLocalDataWithCompletion:]_block_invoke
+___copy_helper_block_.138
+___destroy_helper_block_.139
+-[QSCloudKitSynchronizer subscribeForUpdateNotificationsWithCompletion:]
+-[QSCloudKitSynchronizer deleteSubscriptionWithCompletion:]
+-[QSCloudKitSynchronizer performSynchronization]
+___48-[QSCloudKitSynchronizer performSynchronization]_block_invoke
+___48-[QSCloudKitSynchronizer performSynchronization]_block_invoke_2
+___copy_helper_block_.152
+___destroy_helper_block_.153
+___copy_helper_block_.161
+___destroy_helper_block_.162
+-[QSCloudKitSynchronizer synchronizationFetchChanges]
+___53-[QSCloudKitSynchronizer synchronizationFetchChanges]_block_invoke
+___copy_helper_block_.172
+___destroy_helper_block_.173
+___53-[QSCloudKitSynchronizer synchronizationFetchChanges]_block_invoke.175
+___copy_helper_block_.178
+___destroy_helper_block_.179
+-[QSCloudKitSynchronizer synchronizationMergeChanges]
+___53-[QSCloudKitSynchronizer synchronizationMergeChanges]_block_invoke
+___53-[QSCloudKitSynchronizer synchronizationMergeChanges]_block_invoke_2
+___copy_helper_block_.191
+___destroy_helper_block_.192
+___copy_helper_block_.194
+___destroy_helper_block_.195
+-[QSCloudKitSynchronizer synchronizationUploadChanges]
+___54-[QSCloudKitSynchronizer synchronizationUploadChanges]_block_invoke
+___copy_helper_block_.199
+___destroy_helper_block_.200
+___54-[QSCloudKitSynchronizer synchronizationUploadChanges]_block_invoke.202
+___copy_helper_block_.205
+___destroy_helper_block_.206
+-[QSCloudKitSynchronizer synchronizationUpdateServerToken]
+___58-[QSCloudKitSynchronizer synchronizationUpdateServerToken]_block_invoke
+___copy_helper_block_.210
+___destroy_helper_block_.211
+-[QSCloudKitSynchronizer finishSynchronizationWithError:]
+___57-[QSCloudKitSynchronizer finishSynchronizationWithError:]_block_invoke
+___copy_helper_block_.220
+___destroy_helper_block_.221
+-[QSCloudKitSynchronizer restoreServerChangeToken]
+-[QSCloudKitSynchronizer saveServerChangeToken:]
+-[QSCloudKitSynchronizer uploadChangesWithCompletion:]
+___54-[QSCloudKitSynchronizer uploadChangesWithCompletion:]_block_invoke
+___copy_helper_block_.233
+___destroy_helper_block_.234
+-[QSCloudKitSynchronizer uploadDeletionsWithCompletion:]
+___56-[QSCloudKitSynchronizer uploadDeletionsWithCompletion:]_block_invoke
+___copy_helper_block_.239
+___destroy_helper_block_.240
+-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]
+___55-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]_block_invoke
+___55-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]_block_invoke_2
+___copy_helper_block_.264
+___destroy_helper_block_.265
+___copy_helper_block_.267
+___destroy_helper_block_.268
+___55-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]_block_invoke.273
+___55-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]_block_invoke_2.274
+___copy_helper_block_.279
+___destroy_helper_block_.280
+___copy_helper_block_.282
+___destroy_helper_block_.283
+-[QSCloudKitSynchronizer addMetadataToRecords:]
+-[QSCloudKitSynchronizer removeDeletedEntitiesWithCompletion:]
+___62-[QSCloudKitSynchronizer removeDeletedEntitiesWithCompletion:]_block_invoke
+___62-[QSCloudKitSynchronizer removeDeletedEntitiesWithCompletion:]_block_invoke_2
+___copy_helper_block_.307
+___destroy_helper_block_.308
+___copy_helper_block_.310
+___destroy_helper_block_.311
+-[QSCloudKitSynchronizer fetchChangesWithCompletion:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke
+___53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke_2
+___copy_helper_block_.320
+___destroy_helper_block_.321
+___copy_helper_block_.323
+___destroy_helper_block_.324
+___53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke.329
+___53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke_2.330
+___copy_helper_block_.331
+___destroy_helper_block_.332
+___copy_helper_block_.334
+___destroy_helper_block_.335
+___53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke.340
+___53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke_2.341
+___copy_helper_block_.348
+___destroy_helper_block_.349
+___copy_helper_block_.351
+___destroy_helper_block_.352
+-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]
+___58-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]_block_invoke
+___copy_helper_block_.361
+___destroy_helper_block_.362
+___58-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]_block_invoke.364
+___copy_helper_block_.367
+___destroy_helper_block_.368
+___58-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]_block_invoke.370
+___58-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]_block_invoke_2
+___copy_helper_block_.371
+___destroy_helper_block_.372
+___copy_helper_block_.374
+___destroy_helper_block_.375
+-[QSCloudKitSynchronizer subscribeForChangesInRecordZoneWithCompletion:]
+___72-[QSCloudKitSynchronizer subscribeForChangesInRecordZoneWithCompletion:]_block_invoke
+___72-[QSCloudKitSynchronizer subscribeForChangesInRecordZoneWithCompletion:]_block_invoke_2
+___copy_helper_block_.389
+___destroy_helper_block_.390
+___copy_helper_block_.395
+___destroy_helper_block_.396
+-[QSCloudKitSynchronizer cancelSubscriptionForChangesInRecordZoneWithCompletion:]
+___81-[QSCloudKitSynchronizer cancelSubscriptionForChangesInRecordZoneWithCompletion:]_block_invoke
+___copy_helper_block_.403
+___destroy_helper_block_.404
+-[QSCloudKitSynchronizer cancelSubscriptionWithID:withCompletion:]
+___66-[QSCloudKitSynchronizer cancelSubscriptionWithID:withCompletion:]_block_invoke
+___copy_helper_block_.406
+___destroy_helper_block_.407
+-[QSCloudKitSynchronizer subscriptionID]
+-[QSCloudKitSynchronizer containerIdentifier]
+-[QSCloudKitSynchronizer setContainerIdentifier:]
+-[QSCloudKitSynchronizer changeManager]
+-[QSCloudKitSynchronizer setChangeManager:]
+-[QSCloudKitSynchronizer isSyncing]
+-[QSCloudKitSynchronizer setSyncing:]
+-[QSCloudKitSynchronizer batchSize]
+-[QSCloudKitSynchronizer setBatchSize:]
+-[QSCloudKitSynchronizer compatibilityVersion]
+-[QSCloudKitSynchronizer setCompatibilityVersion:]
+-[QSCloudKitSynchronizer syncMode]
+-[QSCloudKitSynchronizer setSyncMode:]
+-[QSCloudKitSynchronizer serverChangeToken]
+-[QSCloudKitSynchronizer setServerChangeToken:]
+-[QSCloudKitSynchronizer database]
+-[QSCloudKitSynchronizer setDatabase:]
+-[QSCloudKitSynchronizer customZoneID]
+-[QSCloudKitSynchronizer setCustomZoneID:]
+-[QSCloudKitSynchronizer customZone]
+-[QSCloudKitSynchronizer setCustomZone:]
+-[QSCloudKitSynchronizer setDeviceIdentifier:]
+-[QSCloudKitSynchronizer cancelSync]
+-[QSCloudKitSynchronizer setCancelSync:]
+-[QSCloudKitSynchronizer completion]
+-[QSCloudKitSynchronizer setCompletion:]
+-[QSCloudKitSynchronizer currentOperation]
+-[QSCloudKitSynchronizer setCurrentOperation:]
+-[QSCloudKitSynchronizer dispatchQueue]
+-[QSCloudKitSynchronizer setDispatchQueue:]
+-[QSCloudKitSynchronizer .cxx_destruct]
+_OBJC_IVAR_$_QSCloudKitSynchronizer._deviceIdentifier
+___block_descriptor_tmp
+___block_descriptor_tmp.88
+_synchronizerMetadataKeys.metadataKeys
+_synchronizerMetadataKeys.onceToken
+___block_descriptor_tmp.95
+___block_literal_global
+___block_descriptor_tmp.115
+___block_descriptor_tmp.123
+___block_descriptor_tmp.141
+___block_descriptor_tmp.154
+___block_descriptor_tmp.163
+___block_descriptor_tmp.174
+___block_descriptor_tmp.180
+___block_descriptor_tmp.193
+___block_descriptor_tmp.196
+___block_descriptor_tmp.201
+___block_descriptor_tmp.207
+___block_descriptor_tmp.213
+___block_descriptor_tmp.222
+___block_descriptor_tmp.236
+___block_descriptor_tmp.241
+___block_descriptor_tmp.266
+___block_descriptor_tmp.270
+___block_descriptor_tmp.281
+___block_descriptor_tmp.285
+___block_descriptor_tmp.309
+___block_descriptor_tmp.312
+___block_descriptor_tmp.322
+___block_descriptor_tmp.326
+___block_descriptor_tmp.333
+___block_descriptor_tmp.337
+___block_descriptor_tmp.350
+___block_descriptor_tmp.354
+___block_descriptor_tmp.363
+___block_descriptor_tmp.369
+___block_descriptor_tmp.373
+___block_descriptor_tmp.376
+___block_descriptor_tmp.392
+___block_descriptor_tmp.398
+___block_descriptor_tmp.405
+___block_descriptor_tmp.409
+_OBJC_IVAR_$_QSCloudKitSynchronizer._containerIdentifier
+_OBJC_IVAR_$_QSCloudKitSynchronizer._changeManager
+_OBJC_IVAR_$_QSCloudKitSynchronizer._syncing
+_OBJC_IVAR_$_QSCloudKitSynchronizer._batchSize
+_OBJC_IVAR_$_QSCloudKitSynchronizer._compatibilityVersion
+_OBJC_IVAR_$_QSCloudKitSynchronizer._syncMode
+_OBJC_IVAR_$_QSCloudKitSynchronizer._serverChangeToken
+_OBJC_IVAR_$_QSCloudKitSynchronizer._database
+_OBJC_IVAR_$_QSCloudKitSynchronizer._customZoneID
+_OBJC_IVAR_$_QSCloudKitSynchronizer._customZone
+_OBJC_IVAR_$_QSCloudKitSynchronizer._cancelSync
+_OBJC_IVAR_$_QSCloudKitSynchronizer._completion
+_OBJC_IVAR_$_QSCloudKitSynchronizer._currentOperation
+_OBJC_IVAR_$_QSCloudKitSynchronizer._dispatchQueue
+Apple LLVM version 8.1.0 (clang-802.0.42)
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/QSSynchronizer/QSCloudKitSynchronizer.m
+/Users/manuel/Documents/Apps/SyncKit/Example/SyncKitCoreData
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/QSSynchronizer/QSCloudKitSynchronizer.h
+__destroy_helper_block_
+__copy_helper_block_
+__66-[QSCloudKitSynchronizer cancelSubscriptionWithID:withCompletion:]_block_invoke
+__81-[QSCloudKitSynchronizer cancelSubscriptionForChangesInRecordZoneWithCompletion:]_block_invoke
+__72-[QSCloudKitSynchronizer subscribeForChangesInRecordZoneWithCompletion:]_block_invoke_2
+__72-[QSCloudKitSynchronizer subscribeForChangesInRecordZoneWithCompletion:]_block_invoke
+__58-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]_block_invoke_2
+__58-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]_block_invoke.370
+__58-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]_block_invoke.364
+__58-[QSCloudKitSynchronizer updateServerTokenWithCompletion:]_block_invoke
+__53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke_2.341
+__53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke.340
+__53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke_2.330
+__53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke.329
+__53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke_2
+__53-[QSCloudKitSynchronizer fetchChangesWithCompletion:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__62-[QSCloudKitSynchronizer removeDeletedEntitiesWithCompletion:]_block_invoke_2
+__62-[QSCloudKitSynchronizer removeDeletedEntitiesWithCompletion:]_block_invoke
+__55-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]_block_invoke_2.274
+__55-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]_block_invoke.273
+__55-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]_block_invoke_2
+__55-[QSCloudKitSynchronizer uploadEntitiesWithCompletion:]_block_invoke
+__56-[QSCloudKitSynchronizer uploadDeletionsWithCompletion:]_block_invoke
+__54-[QSCloudKitSynchronizer uploadChangesWithCompletion:]_block_invoke
+__57-[QSCloudKitSynchronizer finishSynchronizationWithError:]_block_invoke
+__58-[QSCloudKitSynchronizer synchronizationUpdateServerToken]_block_invoke
+__54-[QSCloudKitSynchronizer synchronizationUploadChanges]_block_invoke.202
+__54-[QSCloudKitSynchronizer synchronizationUploadChanges]_block_invoke
+__53-[QSCloudKitSynchronizer synchronizationMergeChanges]_block_invoke_2
+__53-[QSCloudKitSynchronizer synchronizationMergeChanges]_block_invoke
+__53-[QSCloudKitSynchronizer synchronizationFetchChanges]_block_invoke.175
+__53-[QSCloudKitSynchronizer synchronizationFetchChanges]_block_invoke
+__48-[QSCloudKitSynchronizer performSynchronization]_block_invoke_2
+__48-[QSCloudKitSynchronizer performSynchronization]_block_invoke
+__64-[QSCloudKitSynchronizer eraseRemoteAndLocalDataWithCompletion:]_block_invoke
+__52-[QSCloudKitSynchronizer synchronizeWithCompletion:]_block_invoke_2
+__52-[QSCloudKitSynchronizer synchronizeWithCompletion:]_block_invoke
+__50+[QSCloudKitSynchronizer synchronizerMetadataKeys]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/dispatch/once.h
+__56-[QSCloudKitSynchronizer setupCustomZoneWithCompletion:]_block_invoke_2
+__56-[QSCloudKitSynchronizer setupCustomZoneWithCompletion:]_block_invoke
+-[NSManagedObjectContext(QSFetch) executeFetchRequestWithEntityName:error:]
+-[NSManagedObjectContext(QSFetch) executeFetchRequestWithEntityName:predicate:error:]
+-[NSManagedObjectContext(QSFetch) executeFetchRequestWithEntityName:predicate:fetchLimit:error:]
+-[NSManagedObjectContext(QSFetch) executeFetchRequestWithEntityName:predicate:fetchLimit:resultType:error:]
+-[NSManagedObjectContext(QSFetch) executeFetchRequestWithEntityName:predicate:fetchLimit:resultType:propertiesToFetch:error:]
+-[NSManagedObjectContext(QSFetch) executeFetchRequestWithEntityName:predicate:fetchLimit:preload:error:]
+-[NSManagedObjectContext(QSFetch) executeFetchRequestWithEntityName:predicate:fetchLimit:resultType:propertiesToFetch:preload:error:]
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/NSManagedObjectContext+QSFetch.m
++[QSCloudKitSynchronizer(CoreData) applicationDocumentsDirectory]
++[QSCloudKitSynchronizer(CoreData) applicationStoresPath]
++[QSCloudKitSynchronizer(CoreData) storePath]
++[QSCloudKitSynchronizer(CoreData) storeFileName]
++[QSCloudKitSynchronizer(CoreData) defaultCustomZoneID]
++[QSCloudKitSynchronizer(CoreData) cloudKitSynchronizerWithContainerName:managedObjectContext:changeManagerDelegate:]
++[QSCloudKitSynchronizer(CoreData) updateIdentifierMigrationPolicy]
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSCloudKitSynchronizer+CoreData.m
+-[QSQueryData initWithIdentifier:record:entityType:changedKeys:entityState:relationships:]
+-[QSQueryData identifier]
+-[QSQueryData setIdentifier:]
+-[QSQueryData record]
+-[QSQueryData setRecord:]
+-[QSQueryData entityType]
+-[QSQueryData setEntityType:]
+-[QSQueryData changedKeys]
+-[QSQueryData setChangedKeys:]
+-[QSQueryData state]
+-[QSQueryData setState:]
+-[QSQueryData relationshipDictionary]
+-[QSQueryData setRelationshipDictionary:]
+-[QSQueryData .cxx_destruct]
++[QSCoreDataChangeManager persistenceModel]
+-[QSCoreDataChangeManager initWithPersistenceStack:targetContext:recordZoneID:delegate:]
+-[QSCoreDataChangeManager dealloc]
+-[QSCoreDataChangeManager savePrivateContext]
+-[QSCoreDataChangeManager performInitialSetupIfNeeded]
+___54-[QSCoreDataChangeManager performInitialSetupIfNeeded]_block_invoke
+___54-[QSCoreDataChangeManager performInitialSetupIfNeeded]_block_invoke_2
+___copy_helper_block_.118
+___destroy_helper_block_.119
+-[QSCoreDataChangeManager performInitialSetup]
+___46-[QSCoreDataChangeManager performInitialSetup]_block_invoke
+___46-[QSCoreDataChangeManager performInitialSetup]_block_invoke_2
+___copy_helper_block_.151
+___destroy_helper_block_.152
+___46-[QSCoreDataChangeManager performInitialSetup]_block_invoke.159
+___copy_helper_block_.164
+___destroy_helper_block_.165
+___46-[QSCoreDataChangeManager performInitialSetup]_block_invoke.169
+___46-[QSCoreDataChangeManager performInitialSetup]_block_invoke_2.170
+___copy_helper_block_.171
+___destroy_helper_block_.172
+___copy_helper_block_.174
+___destroy_helper_block_.175
+___copy_helper_block_.177
+___destroy_helper_block_.178
+-[QSCoreDataChangeManager setupPrimaryKeysLookup]
+___49-[QSCoreDataChangeManager setupPrimaryKeysLookup]_block_invoke
+-[QSCoreDataChangeManager updateHasChanges]
+-[QSCoreDataChangeManager useUniqueIdentifierForEntityWithType:]
+-[QSCoreDataChangeManager identifierFieldNameForEntityOfType:]
+-[QSCoreDataChangeManager uniqueIdentifierForObject:]
+-[QSCoreDataChangeManager uniqueIdentifierForObjectFromRecord:]
+-[QSCoreDataChangeManager createSyncedEntityWithIdentifier:entityName:]
+-[QSCoreDataChangeManager entitiesWithState:]
+-[QSCoreDataChangeManager syncedEntitiesWithIdentifiers:]
+-[QSCoreDataChangeManager syncedEntityWithIdentifier:]
+-[QSCoreDataChangeManager originObjectIdentifierForEntityWithIdentifier:]
+-[QSCoreDataChangeManager syncedEntityWithOriginObjectIdentifier:]
+-[QSCoreDataChangeManager referencedSyncedEntitiesByReferenceNameForManagedObject:]
+___83-[QSCoreDataChangeManager referencedSyncedEntitiesByReferenceNameForManagedObject:]_block_invoke
+___copy_helper_block_.311
+___destroy_helper_block_.312
+___83-[QSCoreDataChangeManager referencedSyncedEntitiesByReferenceNameForManagedObject:]_block_invoke.314
+___copy_helper_block_.317
+___destroy_helper_block_.318
+-[QSCoreDataChangeManager deleteSyncedEntities:]
+___48-[QSCoreDataChangeManager deleteSyncedEntities:]_block_invoke
+___copy_helper_block_.333
+___destroy_helper_block_.334
+-[QSCoreDataChangeManager deleteSyncedEntity:]
+___46-[QSCoreDataChangeManager deleteSyncedEntity:]_block_invoke
+___copy_helper_block_.338
+___destroy_helper_block_.339
+-[QSCoreDataChangeManager deleteInsertedButUnmergedEntities]
+-[QSCoreDataChangeManager updateInsertedEntitiesAndSave]
+-[QSCoreDataChangeManager saveRecord:forSyncedEntity:]
+-[QSCoreDataChangeManager encodedRecord:]
+-[QSCoreDataChangeManager recordForSyncedEntity:]
+-[QSCoreDataChangeManager createSyncedEntityForRecord:]
+___55-[QSCoreDataChangeManager createSyncedEntityForRecord:]_block_invoke
+___copy_helper_block_.377
+___destroy_helper_block_.378
+-[QSCoreDataChangeManager recordToUploadForSyncedEntity:]
+___57-[QSCoreDataChangeManager recordToUploadForSyncedEntity:]_block_invoke
+___57-[QSCoreDataChangeManager recordToUploadForSyncedEntity:]_block_invoke_2
+___copy_helper_block_.401
+___destroy_helper_block_.402
+___copy_helper_block_.405
+___destroy_helper_block_.406
+___57-[QSCoreDataChangeManager recordToUploadForSyncedEntity:]_block_invoke.410
+___copy_helper_block_.414
+___destroy_helper_block_.415
+-[QSCoreDataChangeManager recordsToUploadWithState:limit:]
+___58-[QSCoreDataChangeManager recordsToUploadWithState:limit:]_block_invoke
+___copy_helper_block_.430
+___destroy_helper_block_.431
+-[QSCoreDataChangeManager deleteAllPendingRelationships]
+-[QSCoreDataChangeManager entitiesWithPendingRelationships]
+-[QSCoreDataChangeManager saveRelationshipChangesInRecord:withNames:forEntity:]
+-[QSCoreDataChangeManager relationshipsToSaveForObject:record:]
+-[QSCoreDataChangeManager pendingRelationshipTargetIdentifiersForEntity:]
+-[QSCoreDataChangeManager applyPendingRelationships]
+___52-[QSCoreDataChangeManager applyPendingRelationships]_block_invoke
+___copy_helper_block_.485
+___destroy_helper_block_.486
+-[QSCoreDataChangeManager targetApplyPendingRelationships:]
+-[QSCoreDataChangeManager insertManagedObjectWithEntityName:]
+-[QSCoreDataChangeManager managedObjectWithEntityName:identifier:]
+-[QSCoreDataChangeManager managedObjectsWithEntityName:identifiers:]
+-[QSCoreDataChangeManager managedObjectForIDURIRepresentationString:]
+-[QSCoreDataChangeManager managedObjectWithEntityName:key:identifier:]
+-[QSCoreDataChangeManager referencedObjectIdentifiersByRelationshipNameForManagedObject:]
+-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]
+___101-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]_block_invoke
+___copy_helper_block_.524
+___destroy_helper_block_.525
+___101-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]_block_invoke.527
+___copy_helper_block_.528
+___destroy_helper_block_.529
+___101-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]_block_invoke.531
+___copy_helper_block_.535
+___destroy_helper_block_.536
+___101-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]_block_invoke.538
+___copy_helper_block_.539
+___destroy_helper_block_.540
+-[QSCoreDataChangeManager shouldIgnoreKey:]
+-[QSCoreDataChangeManager updateTrackingForObjectsWithPrimaryKey]
+___65-[QSCoreDataChangeManager updateTrackingForObjectsWithPrimaryKey]_block_invoke
+___65-[QSCoreDataChangeManager updateTrackingForObjectsWithPrimaryKey]_block_invoke_2
+___copy_helper_block_.545
+___destroy_helper_block_.546
+___copy_helper_block_.548
+___destroy_helper_block_.549
+-[QSCoreDataChangeManager targetContextWillSave:]
+___49-[QSCoreDataChangeManager targetContextWillSave:]_block_invoke
+___49-[QSCoreDataChangeManager targetContextWillSave:]_block_invoke_2
+___copy_helper_block_.570
+___destroy_helper_block_.571
+___copy_helper_block_.574
+___destroy_helper_block_.575
+-[QSCoreDataChangeManager targetContextDidSave:]
+___48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke
+___48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke_2
+___copy_helper_block_.581
+___destroy_helper_block_.582
+___48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke.584
+___copy_helper_block_.585
+___destroy_helper_block_.586
+___48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke.589
+___copy_helper_block_.590
+___destroy_helper_block_.591
+___48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke.593
+___copy_helper_block_.594
+___destroy_helper_block_.595
+___copy_helper_block_.597
+___destroy_helper_block_.598
+-[QSCoreDataChangeManager configureImportContext]
+-[QSCoreDataChangeManager clearImportContext]
+___45-[QSCoreDataChangeManager clearImportContext]_block_invoke
+___copy_helper_block_.609
+___destroy_helper_block_.610
+-[QSCoreDataChangeManager mergeChangesIntoTargetContextWithCompletion:]
+___71-[QSCoreDataChangeManager mergeChangesIntoTargetContextWithCompletion:]_block_invoke
+___71-[QSCoreDataChangeManager mergeChangesIntoTargetContextWithCompletion:]_block_invoke_2
+___copy_helper_block_.614
+___destroy_helper_block_.615
+___copy_helper_block_.620
+___destroy_helper_block_.621
+-[QSCoreDataChangeManager nextStateToSyncAfter:]
+-[QSCoreDataChangeManager prepareForImport]
+___43-[QSCoreDataChangeManager prepareForImport]_block_invoke
+___copy_helper_block_.631
+___destroy_helper_block_.632
+-[QSCoreDataChangeManager saveChangesInRecords:]
+___48-[QSCoreDataChangeManager saveChangesInRecords:]_block_invoke
+___48-[QSCoreDataChangeManager saveChangesInRecords:]_block_invoke_2
+___copy_helper_block_.644
+___destroy_helper_block_.645
+___copy_helper_block_.651
+___destroy_helper_block_.652
+-[QSCoreDataChangeManager deleteRecordsWithIDs:]
+___48-[QSCoreDataChangeManager deleteRecordsWithIDs:]_block_invoke
+___copy_helper_block_.658
+___destroy_helper_block_.659
+-[QSCoreDataChangeManager deleteRecordWithID:]
+___46-[QSCoreDataChangeManager deleteRecordWithID:]_block_invoke
+___copy_helper_block_.663
+___destroy_helper_block_.664
+-[QSCoreDataChangeManager persistImportedChangesWithCompletion:]
+___64-[QSCoreDataChangeManager persistImportedChangesWithCompletion:]_block_invoke
+___64-[QSCoreDataChangeManager persistImportedChangesWithCompletion:]_block_invoke_2
+___copy_helper_block_.670
+___destroy_helper_block_.671
+___copy_helper_block_.675
+___destroy_helper_block_.676
+-[QSCoreDataChangeManager recordsToUploadWithLimit:]
+-[QSCoreDataChangeManager didUploadRecords:]
+___44-[QSCoreDataChangeManager didUploadRecords:]_block_invoke
+___copy_helper_block_.685
+___destroy_helper_block_.686
+-[QSCoreDataChangeManager recordIDsMarkedForDeletionWithLimit:]
+___63-[QSCoreDataChangeManager recordIDsMarkedForDeletionWithLimit:]_block_invoke
+___copy_helper_block_.688
+___destroy_helper_block_.689
+-[QSCoreDataChangeManager didDeleteRecordIDs:]
+___46-[QSCoreDataChangeManager didDeleteRecordIDs:]_block_invoke
+___copy_helper_block_.691
+___destroy_helper_block_.692
+-[QSCoreDataChangeManager hasRecordID:]
+___39-[QSCoreDataChangeManager hasRecordID:]_block_invoke
+___copy_helper_block_.694
+___destroy_helper_block_.695
+-[QSCoreDataChangeManager didFinishImportWithError:]
+___52-[QSCoreDataChangeManager didFinishImportWithError:]_block_invoke
+___copy_helper_block_.697
+___destroy_helper_block_.698
+-[QSCoreDataChangeManager deleteChangeTracking]
+-[QSCoreDataChangeManager targetContext]
+-[QSCoreDataChangeManager setTargetContext:]
+-[QSCoreDataChangeManager delegate]
+-[QSCoreDataChangeManager setDelegate:]
+-[QSCoreDataChangeManager zoneID]
+-[QSCoreDataChangeManager setZoneID:]
+-[QSCoreDataChangeManager stack]
+-[QSCoreDataChangeManager setStack:]
+-[QSCoreDataChangeManager mergePolicy]
+-[QSCoreDataChangeManager setMergePolicy:]
+-[QSCoreDataChangeManager privateContext]
+-[QSCoreDataChangeManager setPrivateContext:]
+-[QSCoreDataChangeManager targetImportContext]
+-[QSCoreDataChangeManager setTargetImportContext:]
+-[QSCoreDataChangeManager hasChanges]
+-[QSCoreDataChangeManager setHasChanges:]
+-[QSCoreDataChangeManager isMergingImportedChanges]
+-[QSCoreDataChangeManager setMergingImportedChanges:]
+-[QSCoreDataChangeManager entityPrimaryKeys]
+-[QSCoreDataChangeManager setEntityPrimaryKeys:]
+-[QSCoreDataChangeManager .cxx_destruct]
+_OBJC_IVAR_$_QSQueryData._identifier
+_OBJC_IVAR_$_QSQueryData._record
+_OBJC_IVAR_$_QSQueryData._entityType
+_OBJC_IVAR_$_QSQueryData._changedKeys
+_OBJC_IVAR_$_QSQueryData._state
+_OBJC_IVAR_$_QSQueryData._relationshipDictionary
+___block_descriptor_tmp.120
+___block_descriptor_tmp.166
+___block_descriptor_tmp.173
+___block_descriptor_tmp.176
+___block_descriptor_tmp.179
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_QSPrimaryKey
+l_OBJC_LABEL_PROTOCOL_$_QSPrimaryKey
+l_OBJC_PROTOCOL_REFERENCE_$_QSPrimaryKey
+___block_descriptor_tmp.235
+___block_descriptor_tmp.313
+___block_descriptor_tmp.320
+___block_descriptor_tmp.335
+___block_descriptor_tmp.340
+___block_descriptor_tmp.379
+___block_descriptor_tmp.404
+___block_descriptor_tmp.407
+___block_descriptor_tmp.417
+___block_descriptor_tmp.432
+___block_descriptor_tmp.487
+___block_descriptor_tmp.526
+___block_descriptor_tmp.530
+___block_descriptor_tmp.537
+___block_descriptor_tmp.541
+___block_descriptor_tmp.547
+___block_descriptor_tmp.550
+___block_descriptor_tmp.573
+___block_descriptor_tmp.576
+___block_descriptor_tmp.583
+___block_descriptor_tmp.588
+___block_descriptor_tmp.592
+___block_descriptor_tmp.596
+___block_descriptor_tmp.599
+___block_descriptor_tmp.611
+___block_descriptor_tmp.617
+___block_descriptor_tmp.622
+___block_descriptor_tmp.633
+___block_descriptor_tmp.646
+___block_descriptor_tmp.653
+___block_descriptor_tmp.660
+___block_descriptor_tmp.665
+___block_descriptor_tmp.672
+___block_descriptor_tmp.677
+___block_descriptor_tmp.687
+___block_descriptor_tmp.690
+___block_descriptor_tmp.693
+___block_descriptor_tmp.696
+___block_descriptor_tmp.699
+_OBJC_IVAR_$_QSCoreDataChangeManager._targetContext
+_OBJC_IVAR_$_QSCoreDataChangeManager._delegate
+_OBJC_IVAR_$_QSCoreDataChangeManager._zoneID
+_OBJC_IVAR_$_QSCoreDataChangeManager._stack
+_OBJC_IVAR_$_QSCoreDataChangeManager._mergePolicy
+_OBJC_IVAR_$_QSCoreDataChangeManager._privateContext
+_OBJC_IVAR_$_QSCoreDataChangeManager._targetImportContext
+_OBJC_IVAR_$_QSCoreDataChangeManager._hasChanges
+_OBJC_IVAR_$_QSCoreDataChangeManager._mergingImportedChanges
+_OBJC_IVAR_$_QSCoreDataChangeManager._entityPrimaryKeys
+l_OBJC_PROTOCOL_$_QSChangeManager
+l_OBJC_LABEL_PROTOCOL_$_QSChangeManager
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSCoreDataChangeManager.m
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSCoreDataChangeManager.h
+__52-[QSCoreDataChangeManager didFinishImportWithError:]_block_invoke
+__39-[QSCoreDataChangeManager hasRecordID:]_block_invoke
+__46-[QSCoreDataChangeManager didDeleteRecordIDs:]_block_invoke
+__63-[QSCoreDataChangeManager recordIDsMarkedForDeletionWithLimit:]_block_invoke
+__44-[QSCoreDataChangeManager didUploadRecords:]_block_invoke
+__64-[QSCoreDataChangeManager persistImportedChangesWithCompletion:]_block_invoke_2
+__64-[QSCoreDataChangeManager persistImportedChangesWithCompletion:]_block_invoke
+__46-[QSCoreDataChangeManager deleteRecordWithID:]_block_invoke
+__48-[QSCoreDataChangeManager deleteRecordsWithIDs:]_block_invoke
+__48-[QSCoreDataChangeManager saveChangesInRecords:]_block_invoke_2
+__48-[QSCoreDataChangeManager saveChangesInRecords:]_block_invoke
+__43-[QSCoreDataChangeManager prepareForImport]_block_invoke
+__71-[QSCoreDataChangeManager mergeChangesIntoTargetContextWithCompletion:]_block_invoke_2
+__71-[QSCoreDataChangeManager mergeChangesIntoTargetContextWithCompletion:]_block_invoke
+__45-[QSCoreDataChangeManager clearImportContext]_block_invoke
+__48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke.593
+__48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke.589
+__48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke.584
+__48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke_2
+__48-[QSCoreDataChangeManager targetContextDidSave:]_block_invoke
+__49-[QSCoreDataChangeManager targetContextWillSave:]_block_invoke_2
+__49-[QSCoreDataChangeManager targetContextWillSave:]_block_invoke
+__65-[QSCoreDataChangeManager updateTrackingForObjectsWithPrimaryKey]_block_invoke_2
+__65-[QSCoreDataChangeManager updateTrackingForObjectsWithPrimaryKey]_block_invoke
+__101-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]_block_invoke.538
+__101-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]_block_invoke.531
+__101-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]_block_invoke.527
+__101-[QSCoreDataChangeManager applyAttributeChangesInRecord:toManagedObject:withSyncedState:changedKeys:]_block_invoke
+__52-[QSCoreDataChangeManager applyPendingRelationships]_block_invoke
+__58-[QSCoreDataChangeManager recordsToUploadWithState:limit:]_block_invoke
+__57-[QSCoreDataChangeManager recordToUploadForSyncedEntity:]_block_invoke.410
+__57-[QSCoreDataChangeManager recordToUploadForSyncedEntity:]_block_invoke_2
+__57-[QSCoreDataChangeManager recordToUploadForSyncedEntity:]_block_invoke
+__55-[QSCoreDataChangeManager createSyncedEntityForRecord:]_block_invoke
+__46-[QSCoreDataChangeManager deleteSyncedEntity:]_block_invoke
+__48-[QSCoreDataChangeManager deleteSyncedEntities:]_block_invoke
+__83-[QSCoreDataChangeManager referencedSyncedEntitiesByReferenceNameForManagedObject:]_block_invoke.314
+__83-[QSCoreDataChangeManager referencedSyncedEntitiesByReferenceNameForManagedObject:]_block_invoke
+__49-[QSCoreDataChangeManager setupPrimaryKeysLookup]_block_invoke
+__46-[QSCoreDataChangeManager performInitialSetup]_block_invoke_2.170
+__46-[QSCoreDataChangeManager performInitialSetup]_block_invoke.169
+__46-[QSCoreDataChangeManager performInitialSetup]_block_invoke.159
+__46-[QSCoreDataChangeManager performInitialSetup]_block_invoke_2
+__46-[QSCoreDataChangeManager performInitialSetup]_block_invoke
+__54-[QSCoreDataChangeManager performInitialSetupIfNeeded]_block_invoke_2
+__54-[QSCoreDataChangeManager performInitialSetupIfNeeded]_block_invoke
+-[QSCoreDataStack ensureStoreDirectoryExists]
+-[QSCoreDataStack initializeStack]
+___34-[QSCoreDataStack initializeStack]_block_invoke
+-[QSCoreDataStack loadStore]
+-[QSCoreDataStack initWithStoreType:model:storePath:]
+-[QSCoreDataStack initWithStoreType:model:storePath:dispatchImmediately:]
+-[QSCoreDataStack deleteStore]
+-[QSCoreDataStack managedObjectContext]
+-[QSCoreDataStack setManagedObjectContext:]
+-[QSCoreDataStack persistentStoreCoordinator]
+-[QSCoreDataStack setPersistentStoreCoordinator:]
+-[QSCoreDataStack model]
+-[QSCoreDataStack setModel:]
+-[QSCoreDataStack store]
+-[QSCoreDataStack setStore:]
+-[QSCoreDataStack storeURL]
+-[QSCoreDataStack setStoreURL:]
+-[QSCoreDataStack storeType]
+-[QSCoreDataStack setStoreType:]
+-[QSCoreDataStack useDispatchImmediatelyContext]
+-[QSCoreDataStack setUseDispatchImmediatelyContext:]
+-[QSCoreDataStack .cxx_destruct]
+_OBJC_IVAR_$_QSCoreDataStack._managedObjectContext
+_OBJC_IVAR_$_QSCoreDataStack._persistentStoreCoordinator
+_OBJC_IVAR_$_QSCoreDataStack._model
+_OBJC_IVAR_$_QSCoreDataStack._store
+_OBJC_IVAR_$_QSCoreDataStack._storeURL
+_OBJC_IVAR_$_QSCoreDataStack._storeType
+_OBJC_IVAR_$_QSCoreDataStack._useDispatchImmediatelyContext
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSCoreDataStack.m
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSCoreDataStack.h
+__34-[QSCoreDataStack initializeStack]_block_invoke
++[QSEntityIdentifierUpdateMigrationPolicy stack]
++[QSEntityIdentifierUpdateMigrationPolicy setCoreDataStack:]
+-[QSEntityIdentifierUpdateMigrationPolicy syncedEntityWithOriginObjectIdentifier:]
+-[QSEntityIdentifierUpdateMigrationPolicy createDestinationInstancesForSourceInstance:entityMapping:manager:error:]
+___115-[QSEntityIdentifierUpdateMigrationPolicy createDestinationInstancesForSourceInstance:entityMapping:manager:error:]_block_invoke
+__stack
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSEntityIdentifierUpdateMigrationPolicy.m
+__115-[QSEntityIdentifierUpdateMigrationPolicy createDestinationInstancesForSourceInstance:entityMapping:manager:error:]_block_invoke
+-[QSManagedObjectContext performBlock:]
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSManagedObjectContext.m
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSPendingRelationship+CoreDataClass.m
++[QSPendingRelationship(CoreDataProperties) fetchRequest]
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSPendingRelationship+CoreDataProperties.m
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSRecord+CoreDataClass.m
++[QSRecord(CoreDataProperties) fetchRequest]
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSRecord+CoreDataProperties.m
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSSyncedEntity+CoreDataClass.m
++[QSSyncedEntity(CoreDataProperties) fetchRequest]
+/Users/manuel/Documents/Apps/SyncKit/SyncKit/Classes/CoreData/QSSyncedEntity+CoreDataProperties.m
+/Users/manuel/Library/Developer/Xcode/DerivedData/SyncKit-fdmpfoenjjvidjgdyuqkgxiluvfm/Build/Intermediates/SyncKitCoreDataiOS.build/Release-iphoneos/SyncKitCoreData.build/DerivedSources/SyncKitCoreData_vers.c

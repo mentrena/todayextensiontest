@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030F47AAD8BAE1DA19B12EF9153901A5 /* QSPendingRelationship+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = B385BEC054D0118D67471EFEDCEE2268 /* QSPendingRelationship+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05B49D68234EE727DBB4F6BCF2AA6C52 /* QSPendingRelationship+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A24F7E35245E5C0919CB73077D0330B3 /* QSPendingRelationship+CoreDataClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0609D49509DBA4BAE8BC778033049258 /* QSCoreDataChangeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 410704EB052F35593C666FD554C3F69E /* QSCoreDataChangeManager.m */; };
+		0AD18D6C20B2F509174D6AFAED4AD76F /* QSSyncedEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5969543FC2CF12F389077677C38DE657 /* QSSyncedEntity+CoreDataProperties.m */; };
+		12B778470E0A3B49679E8BA468795B65 /* QSCoreDataStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CA3C7E554CA2D2E84C9FFD0C12C532 /* QSCoreDataStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13EC0165225194A0187352AC332B7AA7 /* QSRecord+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = D384C5AB58E0C2F06ADE158F7FAB26AA /* QSRecord+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1563F35B7EA2080791688E00C08A5C1B /* QSSyncedEntity+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBD6E5F32AD6008686D727CD7E122A0 /* QSSyncedEntity+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CBD43F1DE89E84F067B8C528D6E2D27 /* QSEntityIdentifierUpdateMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E8109F4C3EC333B18858E1B277972 /* QSEntityIdentifierUpdateMigrationPolicy.m */; };
+		26A0A01403CA0DB799739A1E258136F8 /* QSPendingRelationship+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E37C5598C25A75FD12DF0991028F2D9 /* QSPendingRelationship+CoreDataClass.m */; };
+		2C7147DCEC6F8A5522AAB4124A96D41A /* QSRecord+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D1B55681518BE39521A9188E8FECF8 /* QSRecord+CoreDataProperties.m */; };
+		3171905DCDE4FC76E16402A031638DC3 /* SyncKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 413F901C58199AD4DE7A058ED5ADE788 /* SyncKit-dummy.m */; };
+		31DC1F8477ADD7CC5084701A433364DD /* QSCloudKitSynchronizer+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87B82332637CD8AFC3256572C91ABD /* QSCloudKitSynchronizer+CoreData.m */; };
+		4097059BEFB2DFE00B56ADDB1337A550 /* Pods-TodayExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F3C0C0D3D2B138EDE28DEF673C4926 /* Pods-TodayExtension-dummy.m */; };
+		40D005B6ECCBF98C4EAB85E826A77947 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64ECF12EC5F7C7A9A6D844947553DEF /* CloudKit.framework */; };
+		413F9F320773E2F8D01344C154DB58F4 /* QSManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FE5EC9CE60C9C283E8A9608F2F7854 /* QSManagedObjectContext.m */; };
+		42BB40D5FF2C4B0F4D18A28AB4B5E140 /* QSPendingRelationship+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F85B4D4F9C4429CD38A6C029DB881F0B /* QSPendingRelationship+CoreDataProperties.m */; };
+		51943941AA809B8C6944134CD8E2FC90 /* QSManagedObjectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBB3BD8644215CD8698DAC6932E8927 /* QSManagedObjectContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52268AEDF1F26CC0102B05A163FDD90A /* NSManagedObjectContext+QSFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0ED39AD9F4C69C7BE81E44DDF88EA /* NSManagedObjectContext+QSFetch.m */; };
+		5AAF69A4E58F663AC21428B58349CB92 /* QSCloudKitSynchronizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ABA838A39A33864A1EC6B94ACED71E4 /* QSCloudKitSynchronizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB1531AFCA4F9237D8AADB47A75A9F8 /* Pods-todayextensiontest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53929720FAF361F3EC5434A046257682 /* Pods-todayextensiontest-dummy.m */; };
+		6540BD2E4F00AEBBF36A0166D6D43966 /* QSChangeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2509A84330F9791BC2071F78D192F074 /* QSChangeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6701455687A5B921F13575A2EDC6A7E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7029AF17E26AFFDC676C543D8C2F9418 /* Foundation.framework */; };
+		7232FAB8FD72524F3E06CB179DD2CD95 /* QSCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C815A790DD080FF631CAAD6102BCE03 /* QSCoreDataStack.m */; };
+		7E4973003199EE142431F3E40BECEAFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7029AF17E26AFFDC676C543D8C2F9418 /* Foundation.framework */; };
+		8956E3DE3D6157D7ADAF36562226789A /* QSRecord+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D5577F0E95601D68E5230F0A4836657F /* QSRecord+CoreDataClass.m */; };
+		934944393B1F49A598D2550BF8733A85 /* QSCloudKitSynchronizer+CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = D49DAD35C25BF682945C8B8F256A2303 /* QSCloudKitSynchronizer+CoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3D7DA5918440C6BA9253B293AAED22 /* QSPrimaryKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 311052E3C4A472D1D773F5AAAFF4A0C1 /* QSPrimaryKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6EABF35B2F7CEAC584AA942D5F5CD95 /* QSRecord+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 5527B162253A087C2EDDC4A41FDF967A /* QSRecord+CoreDataClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C442163A95C88ACA17008289B02128 /* NSManagedObjectContext+QSFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 83718DCC8ECADD788C3905D7EDF2673B /* NSManagedObjectContext+QSFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B327A3E5F773F934DB5AF39667CDCD6F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8571DC4789728ACC6833E3EC0C735EE2 /* CoreData.framework */; };
+		C128E9583C60CF12791101AA2930BEBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7029AF17E26AFFDC676C543D8C2F9418 /* Foundation.framework */; };
+		C2AB768FA2608BFA97BB784E3984BAFD /* QSCoreDataChangeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C979D4A3329229B711A622DF0F85A /* QSCoreDataChangeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C376472CEA5F03205215281CA5C0F2F6 /* SyncKitLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 327A03A15B6B363562356074A0EB3FE5 /* SyncKitLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2299C3D0F3B2C4FCDD8A167F9A6FF06 /* QSSyncedEntityState.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A1509D2908F0449F5DF55BFF4FAE88 /* QSSyncedEntityState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B43E257502C33867015DBC5A74481E /* QSEntityIdentifierUpdateMigrationPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B0561AA1A1701C817FDF37D88E4DFD4A /* QSEntityIdentifierUpdateMigrationPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB101CB8A17A499D04F20A06DFCF28F /* QSCloudKitSynchronizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ADC6F90E3C80C966D6376DCD6981C7 /* QSCloudKitSynchronizer.m */; };
+		EBCA7DC4D67C8258D806FA1141017CFA /* QSSyncedEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D75386E7BE9DD66238C8BA2C14E79AB /* QSSyncedEntity+CoreDataClass.m */; };
+		F54E96A152E34BA6C733F6444B19BA3F /* QSSyncedEntity+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF7DC8BD77765BC1F81C919E9C1D677 /* QSSyncedEntity+CoreDataClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC5F0D21C5464A3A2CDD399F6B9BE725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930484B60F7B2699B383735FB7108FDE;
+			remoteInfo = SyncKit;
+		};
+		F6CF6D476D33B29EF5ED49707CDEBCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930484B60F7B2699B383735FB7108FDE;
+			remoteInfo = SyncKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EDD2C4522E112DE31F0AC76A671C01 /* Pods-todayextensiontest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todayextensiontest.release.xcconfig"; sourceTree = "<group>"; };
+		085E27CD848758A5F02BE170813C4B7E /* Pods-todayextensiontest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-todayextensiontest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C815A790DD080FF631CAAD6102BCE03 /* QSCoreDataStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSCoreDataStack.m; path = SyncKit/Classes/CoreData/QSCoreDataStack.m; sourceTree = "<group>"; };
+		24F3C0C0D3D2B138EDE28DEF673C4926 /* Pods-TodayExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodayExtension-dummy.m"; sourceTree = "<group>"; };
+		2509A84330F9791BC2071F78D192F074 /* QSChangeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSChangeManager.h; path = SyncKit/Classes/QSSynchronizer/QSChangeManager.h; sourceTree = "<group>"; };
+		283D4AD68A6D13586E39E2A95E661ED3 /* Pods-todayextensiontest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todayextensiontest.debug.xcconfig"; sourceTree = "<group>"; };
+		28B4AED51D5C0F2DBA8A4345535BA96E /* Pods-TodayExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodayExtension-resources.sh"; sourceTree = "<group>"; };
+		2B43B1E15F736299622D97F03B003AAA /* Pods-todayextensiontest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todayextensiontest-resources.sh"; sourceTree = "<group>"; };
+		2D75386E7BE9DD66238C8BA2C14E79AB /* QSSyncedEntity+CoreDataClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSSyncedEntity+CoreDataClass.m"; path = "SyncKit/Classes/CoreData/QSSyncedEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		311052E3C4A472D1D773F5AAAFF4A0C1 /* QSPrimaryKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSPrimaryKey.h; path = SyncKit/Classes/QSSynchronizer/QSPrimaryKey.h; sourceTree = "<group>"; };
+		327A03A15B6B363562356074A0EB3FE5 /* SyncKitLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncKitLog.h; path = SyncKit/Classes/QSSynchronizer/SyncKitLog.h; sourceTree = "<group>"; };
+		3BC0ED39AD9F4C69C7BE81E44DDF88EA /* NSManagedObjectContext+QSFetch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+QSFetch.m"; path = "SyncKit/Classes/CoreData/NSManagedObjectContext+QSFetch.m"; sourceTree = "<group>"; };
+		410704EB052F35593C666FD554C3F69E /* QSCoreDataChangeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSCoreDataChangeManager.m; path = SyncKit/Classes/CoreData/QSCoreDataChangeManager.m; sourceTree = "<group>"; };
+		413F901C58199AD4DE7A058ED5ADE788 /* SyncKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SyncKit-dummy.m"; sourceTree = "<group>"; };
+		4ABA838A39A33864A1EC6B94ACED71E4 /* QSCloudKitSynchronizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSCloudKitSynchronizer.h; path = SyncKit/Classes/QSSynchronizer/QSCloudKitSynchronizer.h; sourceTree = "<group>"; };
+		53929720FAF361F3EC5434A046257682 /* Pods-todayextensiontest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-todayextensiontest-dummy.m"; sourceTree = "<group>"; };
+		5527B162253A087C2EDDC4A41FDF967A /* QSRecord+CoreDataClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSRecord+CoreDataClass.h"; path = "SyncKit/Classes/CoreData/QSRecord+CoreDataClass.h"; sourceTree = "<group>"; };
+		55CA3C7E554CA2D2E84C9FFD0C12C532 /* QSCoreDataStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSCoreDataStack.h; path = SyncKit/Classes/CoreData/QSCoreDataStack.h; sourceTree = "<group>"; };
+		5969543FC2CF12F389077677C38DE657 /* QSSyncedEntity+CoreDataProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSSyncedEntity+CoreDataProperties.m"; path = "SyncKit/Classes/CoreData/QSSyncedEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		59900BCB37405743E98F4342810F52EA /* SyncKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SyncKit.xcconfig; sourceTree = "<group>"; };
+		5EF33CC4DA84F773CD91A5D700316491 /* QSCloudKitSyncModel.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = QSCloudKitSyncModel.xcdatamodel; sourceTree = "<group>"; };
+		6DF7DC8BD77765BC1F81C919E9C1D677 /* QSSyncedEntity+CoreDataClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSSyncedEntity+CoreDataClass.h"; path = "SyncKit/Classes/CoreData/QSSyncedEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		7029AF17E26AFFDC676C543D8C2F9418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		786A568D9022C672C24927D9B051B63F /* Pods-TodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		83718DCC8ECADD788C3905D7EDF2673B /* NSManagedObjectContext+QSFetch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+QSFetch.h"; path = "SyncKit/Classes/CoreData/NSManagedObjectContext+QSFetch.h"; sourceTree = "<group>"; };
+		8571DC4789728ACC6833E3EC0C735EE2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		8BBD6E5F32AD6008686D727CD7E122A0 /* QSSyncedEntity+CoreDataProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSSyncedEntity+CoreDataProperties.h"; path = "SyncKit/Classes/CoreData/QSSyncedEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8E37C5598C25A75FD12DF0991028F2D9 /* QSPendingRelationship+CoreDataClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSPendingRelationship+CoreDataClass.m"; path = "SyncKit/Classes/CoreData/QSPendingRelationship+CoreDataClass.m"; sourceTree = "<group>"; };
+		912E8109F4C3EC333B18858E1B277972 /* QSEntityIdentifierUpdateMigrationPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSEntityIdentifierUpdateMigrationPolicy.m; path = SyncKit/Classes/CoreData/QSEntityIdentifierUpdateMigrationPolicy.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB4A89AB3B3F377593187C8CAF462F5 /* Pods-todayextensiontest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-todayextensiontest-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F87B82332637CD8AFC3256572C91ABD /* QSCloudKitSynchronizer+CoreData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSCloudKitSynchronizer+CoreData.m"; path = "SyncKit/Classes/CoreData/QSCloudKitSynchronizer+CoreData.m"; sourceTree = "<group>"; };
+		A07FEE98F320CD42E6B430AA24613744 /* libPods-todayextensiontest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-todayextensiontest.a"; path = "libPods-todayextensiontest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24F7E35245E5C0919CB73077D0330B3 /* QSPendingRelationship+CoreDataClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSPendingRelationship+CoreDataClass.h"; path = "SyncKit/Classes/CoreData/QSPendingRelationship+CoreDataClass.h"; sourceTree = "<group>"; };
+		B0561AA1A1701C817FDF37D88E4DFD4A /* QSEntityIdentifierUpdateMigrationPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSEntityIdentifierUpdateMigrationPolicy.h; path = SyncKit/Classes/CoreData/QSEntityIdentifierUpdateMigrationPolicy.h; sourceTree = "<group>"; };
+		B385BEC054D0118D67471EFEDCEE2268 /* QSPendingRelationship+CoreDataProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSPendingRelationship+CoreDataProperties.h"; path = "SyncKit/Classes/CoreData/QSPendingRelationship+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B5ADC6F90E3C80C966D6376DCD6981C7 /* QSCloudKitSynchronizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSCloudKitSynchronizer.m; path = SyncKit/Classes/QSSynchronizer/QSCloudKitSynchronizer.m; sourceTree = "<group>"; };
+		B64ECF12EC5F7C7A9A6D844947553DEF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF1C979D4A3329229B711A622DF0F85A /* QSCoreDataChangeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSCoreDataChangeManager.h; path = SyncKit/Classes/CoreData/QSCoreDataChangeManager.h; sourceTree = "<group>"; };
+		CA7C28F3888C4E8C329FE2C466CA48DA /* Pods-TodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		CD14778BA647EF93B16DC5F94DEF3937 /* Pods-TodayExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodayExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0D1B55681518BE39521A9188E8FECF8 /* QSRecord+CoreDataProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSRecord+CoreDataProperties.m"; path = "SyncKit/Classes/CoreData/QSRecord+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D12845198640E84E8971D0E36D7534C1 /* Pods-TodayExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodayExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D384C5AB58E0C2F06ADE158F7FAB26AA /* QSRecord+CoreDataProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSRecord+CoreDataProperties.h"; path = "SyncKit/Classes/CoreData/QSRecord+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D49DAD35C25BF682945C8B8F256A2303 /* QSCloudKitSynchronizer+CoreData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSCloudKitSynchronizer+CoreData.h"; path = "SyncKit/Classes/CoreData/QSCloudKitSynchronizer+CoreData.h"; sourceTree = "<group>"; };
+		D5577F0E95601D68E5230F0A4836657F /* QSRecord+CoreDataClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSRecord+CoreDataClass.m"; path = "SyncKit/Classes/CoreData/QSRecord+CoreDataClass.m"; sourceTree = "<group>"; };
+		D5A1509D2908F0449F5DF55BFF4FAE88 /* QSSyncedEntityState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSSyncedEntityState.h; path = SyncKit/Classes/QSSynchronizer/QSSyncedEntityState.h; sourceTree = "<group>"; };
+		D8ACC70244AFC844291F64A163393771 /* SyncKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SyncKit-prefix.pch"; sourceTree = "<group>"; };
+		DB6C36257727978069DD2295B91D8762 /* libSyncKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSyncKit.a; path = libSyncKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F87B6E6CDD29A800640F33320FBAE7 /* Pods-todayextensiontest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todayextensiontest-frameworks.sh"; sourceTree = "<group>"; };
+		E9FE5EC9CE60C9C283E8A9608F2F7854 /* QSManagedObjectContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSManagedObjectContext.m; path = SyncKit/Classes/CoreData/QSManagedObjectContext.m; sourceTree = "<group>"; };
+		EA10A494DBAFD71AA022E92A1BD25311 /* libPods-TodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TodayExtension.a"; path = "libPods-TodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBB3BD8644215CD8698DAC6932E8927 /* QSManagedObjectContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSManagedObjectContext.h; path = SyncKit/Classes/CoreData/QSManagedObjectContext.h; sourceTree = "<group>"; };
+		F85B4D4F9C4429CD38A6C029DB881F0B /* QSPendingRelationship+CoreDataProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSPendingRelationship+CoreDataProperties.m"; path = "SyncKit/Classes/CoreData/QSPendingRelationship+CoreDataProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1C4E072BD017142C33A0AE35A0FCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C128E9583C60CF12791101AA2930BEBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE16E4D37D5509B13FB0E38D01C1D2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4973003199EE142431F3E40BECEAFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF54990DDA101D4007D14D346A6B0DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D005B6ECCBF98C4EAB85E826A77947 /* CloudKit.framework in Frameworks */,
+				B327A3E5F773F934DB5AF39667CDCD6F /* CoreData.framework in Frameworks */,
+				6701455687A5B921F13575A2EDC6A7E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009CAD910F695B68323B87046FCA12F5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				83718DCC8ECADD788C3905D7EDF2673B /* NSManagedObjectContext+QSFetch.h */,
+				3BC0ED39AD9F4C69C7BE81E44DDF88EA /* NSManagedObjectContext+QSFetch.m */,
+				D49DAD35C25BF682945C8B8F256A2303 /* QSCloudKitSynchronizer+CoreData.h */,
+				9F87B82332637CD8AFC3256572C91ABD /* QSCloudKitSynchronizer+CoreData.m */,
+				BF1C979D4A3329229B711A622DF0F85A /* QSCoreDataChangeManager.h */,
+				410704EB052F35593C666FD554C3F69E /* QSCoreDataChangeManager.m */,
+				55CA3C7E554CA2D2E84C9FFD0C12C532 /* QSCoreDataStack.h */,
+				0C815A790DD080FF631CAAD6102BCE03 /* QSCoreDataStack.m */,
+				B0561AA1A1701C817FDF37D88E4DFD4A /* QSEntityIdentifierUpdateMigrationPolicy.h */,
+				912E8109F4C3EC333B18858E1B277972 /* QSEntityIdentifierUpdateMigrationPolicy.m */,
+				EDBB3BD8644215CD8698DAC6932E8927 /* QSManagedObjectContext.h */,
+				E9FE5EC9CE60C9C283E8A9608F2F7854 /* QSManagedObjectContext.m */,
+				A24F7E35245E5C0919CB73077D0330B3 /* QSPendingRelationship+CoreDataClass.h */,
+				8E37C5598C25A75FD12DF0991028F2D9 /* QSPendingRelationship+CoreDataClass.m */,
+				B385BEC054D0118D67471EFEDCEE2268 /* QSPendingRelationship+CoreDataProperties.h */,
+				F85B4D4F9C4429CD38A6C029DB881F0B /* QSPendingRelationship+CoreDataProperties.m */,
+				5527B162253A087C2EDDC4A41FDF967A /* QSRecord+CoreDataClass.h */,
+				D5577F0E95601D68E5230F0A4836657F /* QSRecord+CoreDataClass.m */,
+				D384C5AB58E0C2F06ADE158F7FAB26AA /* QSRecord+CoreDataProperties.h */,
+				D0D1B55681518BE39521A9188E8FECF8 /* QSRecord+CoreDataProperties.m */,
+				6DF7DC8BD77765BC1F81C919E9C1D677 /* QSSyncedEntity+CoreDataClass.h */,
+				2D75386E7BE9DD66238C8BA2C14E79AB /* QSSyncedEntity+CoreDataClass.m */,
+				8BBD6E5F32AD6008686D727CD7E122A0 /* QSSyncedEntity+CoreDataProperties.h */,
+				5969543FC2CF12F389077677C38DE657 /* QSSyncedEntity+CoreDataProperties.m */,
+				C654B007D03476C654CAC9452DF708E8 /* Resources */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		00C5D3839ACAB35377AFC11745BFB5F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA10A494DBAFD71AA022E92A1BD25311 /* libPods-TodayExtension.a */,
+				A07FEE98F320CD42E6B430AA24613744 /* libPods-todayextensiontest.a */,
+				DB6C36257727978069DD2295B91D8762 /* libSyncKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70EA525B8919634ABB2ADB6E71EE2BC5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E9878A8E594360EE9863B2E35B24F79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE8705C70649B7961491ECBFE1D0F0D2 /* SyncKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		310C1FD9394187395FFCA5E9B91A3023 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59900BCB37405743E98F4342810F52EA /* SyncKit.xcconfig */,
+				413F901C58199AD4DE7A058ED5ADE788 /* SyncKit-dummy.m */,
+				D8ACC70244AFC844291F64A163393771 /* SyncKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SyncKit";
+			sourceTree = "<group>";
+		};
+		32DE683103DCE53427EECD800107056E /* Pods-TodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D12845198640E84E8971D0E36D7534C1 /* Pods-TodayExtension-acknowledgements.markdown */,
+				CD14778BA647EF93B16DC5F94DEF3937 /* Pods-TodayExtension-acknowledgements.plist */,
+				24F3C0C0D3D2B138EDE28DEF673C4926 /* Pods-TodayExtension-dummy.m */,
+				28B4AED51D5C0F2DBA8A4345535BA96E /* Pods-TodayExtension-resources.sh */,
+				786A568D9022C672C24927D9B051B63F /* Pods-TodayExtension.debug.xcconfig */,
+				CA7C28F3888C4E8C329FE2C466CA48DA /* Pods-TodayExtension.release.xcconfig */,
+			);
+			name = "Pods-TodayExtension";
+			path = "Target Support Files/Pods-TodayExtension";
+			sourceTree = "<group>";
+		};
+		5EE168794BC51969833A756271D7C37B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2509A84330F9791BC2071F78D192F074 /* QSChangeManager.h */,
+				4ABA838A39A33864A1EC6B94ACED71E4 /* QSCloudKitSynchronizer.h */,
+				B5ADC6F90E3C80C966D6376DCD6981C7 /* QSCloudKitSynchronizer.m */,
+				311052E3C4A472D1D773F5AAAFF4A0C1 /* QSPrimaryKey.h */,
+				D5A1509D2908F0449F5DF55BFF4FAE88 /* QSSyncedEntityState.h */,
+				327A03A15B6B363562356074A0EB3FE5 /* SyncKitLog.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		70EA525B8919634ABB2ADB6E71EE2BC5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B64ECF12EC5F7C7A9A6D844947553DEF /* CloudKit.framework */,
+				8571DC4789728ACC6833E3EC0C735EE2 /* CoreData.framework */,
+				7029AF17E26AFFDC676C543D8C2F9418 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				1E9878A8E594360EE9863B2E35B24F79 /* Pods */,
+				00C5D3839ACAB35377AFC11745BFB5F5 /* Products */,
+				9E8652099388C82706706BF8E5BB191C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8997D0AFB514B37ED5ECB51F243C13 /* Pods-todayextensiontest */ = {
+			isa = PBXGroup;
+			children = (
+				085E27CD848758A5F02BE170813C4B7E /* Pods-todayextensiontest-acknowledgements.markdown */,
+				9EB4A89AB3B3F377593187C8CAF462F5 /* Pods-todayextensiontest-acknowledgements.plist */,
+				53929720FAF361F3EC5434A046257682 /* Pods-todayextensiontest-dummy.m */,
+				E2F87B6E6CDD29A800640F33320FBAE7 /* Pods-todayextensiontest-frameworks.sh */,
+				2B43B1E15F736299622D97F03B003AAA /* Pods-todayextensiontest-resources.sh */,
+				283D4AD68A6D13586E39E2A95E661ED3 /* Pods-todayextensiontest.debug.xcconfig */,
+				01EDD2C4522E112DE31F0AC76A671C01 /* Pods-todayextensiontest.release.xcconfig */,
+			);
+			name = "Pods-todayextensiontest";
+			path = "Target Support Files/Pods-todayextensiontest";
+			sourceTree = "<group>";
+		};
+		9E8652099388C82706706BF8E5BB191C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32DE683103DCE53427EECD800107056E /* Pods-TodayExtension */,
+				7F8997D0AFB514B37ED5ECB51F243C13 /* Pods-todayextensiontest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE8705C70649B7961491ECBFE1D0F0D2 /* SyncKit */ = {
+			isa = PBXGroup;
+			children = (
+				5EE168794BC51969833A756271D7C37B /* Core */,
+				009CAD910F695B68323B87046FCA12F5 /* CoreData */,
+				310C1FD9394187395FFCA5E9B91A3023 /* Support Files */,
+			);
+			name = SyncKit;
+			path = SyncKit;
+			sourceTree = "<group>";
+		};
+		C654B007D03476C654CAC9452DF708E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3DC869B15C9C2C5DBBD4E3241BF8383 /* QSCloudKitSyncModel.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EDBB56524BF518980010E5DF09FA4E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C442163A95C88ACA17008289B02128 /* NSManagedObjectContext+QSFetch.h in Headers */,
+				6540BD2E4F00AEBBF36A0166D6D43966 /* QSChangeManager.h in Headers */,
+				934944393B1F49A598D2550BF8733A85 /* QSCloudKitSynchronizer+CoreData.h in Headers */,
+				5AAF69A4E58F663AC21428B58349CB92 /* QSCloudKitSynchronizer.h in Headers */,
+				C2AB768FA2608BFA97BB784E3984BAFD /* QSCoreDataChangeManager.h in Headers */,
+				12B778470E0A3B49679E8BA468795B65 /* QSCoreDataStack.h in Headers */,
+				D7B43E257502C33867015DBC5A74481E /* QSEntityIdentifierUpdateMigrationPolicy.h in Headers */,
+				51943941AA809B8C6944134CD8E2FC90 /* QSManagedObjectContext.h in Headers */,
+				05B49D68234EE727DBB4F6BCF2AA6C52 /* QSPendingRelationship+CoreDataClass.h in Headers */,
+				030F47AAD8BAE1DA19B12EF9153901A5 /* QSPendingRelationship+CoreDataProperties.h in Headers */,
+				9F3D7DA5918440C6BA9253B293AAED22 /* QSPrimaryKey.h in Headers */,
+				A6EABF35B2F7CEAC584AA942D5F5CD95 /* QSRecord+CoreDataClass.h in Headers */,
+				13EC0165225194A0187352AC332B7AA7 /* QSRecord+CoreDataProperties.h in Headers */,
+				F54E96A152E34BA6C733F6444B19BA3F /* QSSyncedEntity+CoreDataClass.h in Headers */,
+				1563F35B7EA2080791688E00C08A5C1B /* QSSyncedEntity+CoreDataProperties.h in Headers */,
+				D2299C3D0F3B2C4FCDD8A167F9A6FF06 /* QSSyncedEntityState.h in Headers */,
+				C376472CEA5F03205215281CA5C0F2F6 /* SyncKitLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		930484B60F7B2699B383735FB7108FDE /* SyncKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F8C81AB6148D479DC1E4252F916AE9 /* Build configuration list for PBXNativeTarget "SyncKit" */;
+			buildPhases = (
+				F84EE2B66E9E73639F3F77B304544BA4 /* Sources */,
+				CF54990DDA101D4007D14D346A6B0DAE /* Frameworks */,
+				2EDBB56524BF518980010E5DF09FA4E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncKit;
+			productName = SyncKit;
+			productReference = DB6C36257727978069DD2295B91D8762 /* libSyncKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B72F104A19B7A3DF116A9CACDEFA265B /* Pods-todayextensiontest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE336DC23967C7544101B55E86194BB0 /* Build configuration list for PBXNativeTarget "Pods-todayextensiontest" */;
+			buildPhases = (
+				16CAC5F21DEA514C8A79DF264A7F6447 /* Sources */,
+				2D1C4E072BD017142C33A0AE35A0FCF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B5A2FCEBEE077931C666473F31F7657 /* PBXTargetDependency */,
+			);
+			name = "Pods-todayextensiontest";
+			productName = "Pods-todayextensiontest";
+			productReference = A07FEE98F320CD42E6B430AA24613744 /* libPods-todayextensiontest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E80158E1274C361353D0637538ABC4F0 /* Pods-TodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CDDF6B38BFC141312999F5B77072F3 /* Build configuration list for PBXNativeTarget "Pods-TodayExtension" */;
+			buildPhases = (
+				2AE8CB2FAEFA1B97820BAA8C63662BC8 /* Sources */,
+				CE16E4D37D5509B13FB0E38D01C1D2DB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC8623F7D6BB3A83B0DEF120AE09429 /* PBXTargetDependency */,
+			);
+			name = "Pods-TodayExtension";
+			productName = "Pods-TodayExtension";
+			productReference = EA10A494DBAFD71AA022E92A1BD25311 /* libPods-TodayExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00C5D3839ACAB35377AFC11745BFB5F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E80158E1274C361353D0637538ABC4F0 /* Pods-TodayExtension */,
+				B72F104A19B7A3DF116A9CACDEFA265B /* Pods-todayextensiontest */,
+				930484B60F7B2699B383735FB7108FDE /* SyncKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CAC5F21DEA514C8A79DF264A7F6447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB1531AFCA4F9237D8AADB47A75A9F8 /* Pods-todayextensiontest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE8CB2FAEFA1B97820BAA8C63662BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4097059BEFB2DFE00B56ADDB1337A550 /* Pods-TodayExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84EE2B66E9E73639F3F77B304544BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52268AEDF1F26CC0102B05A163FDD90A /* NSManagedObjectContext+QSFetch.m in Sources */,
+				31DC1F8477ADD7CC5084701A433364DD /* QSCloudKitSynchronizer+CoreData.m in Sources */,
+				DDB101CB8A17A499D04F20A06DFCF28F /* QSCloudKitSynchronizer.m in Sources */,
+				0609D49509DBA4BAE8BC778033049258 /* QSCoreDataChangeManager.m in Sources */,
+				7232FAB8FD72524F3E06CB179DD2CD95 /* QSCoreDataStack.m in Sources */,
+				1CBD43F1DE89E84F067B8C528D6E2D27 /* QSEntityIdentifierUpdateMigrationPolicy.m in Sources */,
+				413F9F320773E2F8D01344C154DB58F4 /* QSManagedObjectContext.m in Sources */,
+				26A0A01403CA0DB799739A1E258136F8 /* QSPendingRelationship+CoreDataClass.m in Sources */,
+				42BB40D5FF2C4B0F4D18A28AB4B5E140 /* QSPendingRelationship+CoreDataProperties.m in Sources */,
+				8956E3DE3D6157D7ADAF36562226789A /* QSRecord+CoreDataClass.m in Sources */,
+				2C7147DCEC6F8A5522AAB4124A96D41A /* QSRecord+CoreDataProperties.m in Sources */,
+				EBCA7DC4D67C8258D806FA1141017CFA /* QSSyncedEntity+CoreDataClass.m in Sources */,
+				0AD18D6C20B2F509174D6AFAED4AD76F /* QSSyncedEntity+CoreDataProperties.m in Sources */,
+				3171905DCDE4FC76E16402A031638DC3 /* SyncKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B5A2FCEBEE077931C666473F31F7657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SyncKit;
+			target = 930484B60F7B2699B383735FB7108FDE /* SyncKit */;
+			targetProxy = DC5F0D21C5464A3A2CDD399F6B9BE725 /* PBXContainerItemProxy */;
+		};
+		DAC8623F7D6BB3A83B0DEF120AE09429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SyncKit;
+			target = 930484B60F7B2699B383735FB7108FDE /* SyncKit */;
+			targetProxy = F6CF6D476D33B29EF5ED49707CDEBCDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33752FAC7A9A01549AB5BDFF6FB5E4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EDD2C4522E112DE31F0AC76A671C01 /* Pods-todayextensiontest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		479DB5DD323CC1A43981F8B12D662633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786A568D9022C672C24927D9B051B63F /* Pods-TodayExtension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4BAFF8125B66E9C77E732545C7554816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59900BCB37405743E98F4342810F52EA /* SyncKit.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SyncKit/SyncKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A51E1CD34A5F36377CD3C24B7166DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7C28F3888C4E8C329FE2C466CA48DA /* Pods-TodayExtension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9BDA06C29388B70D09BBCAA611D9D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283D4AD68A6D13586E39E2A95E661ED3 /* Pods-todayextensiontest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F402F1CD483483113D40E56AE65E9329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59900BCB37405743E98F4342810F52EA /* SyncKit.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SyncKit/SyncKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CDDF6B38BFC141312999F5B77072F3 /* Build configuration list for PBXNativeTarget "Pods-TodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479DB5DD323CC1A43981F8B12D662633 /* Debug */,
+				8A51E1CD34A5F36377CD3C24B7166DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F8C81AB6148D479DC1E4252F916AE9 /* Build configuration list for PBXNativeTarget "SyncKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BAFF8125B66E9C77E732545C7554816 /* Debug */,
+				F402F1CD483483113D40E56AE65E9329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE336DC23967C7544101B55E86194BB0 /* Build configuration list for PBXNativeTarget "Pods-todayextensiontest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BDA06C29388B70D09BBCAA611D9D51 /* Debug */,
+				33752FAC7A9A01549AB5BDFF6FB5E4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3DC869B15C9C2C5DBBD4E3241BF8383 /* QSCloudKitSyncModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EF33CC4DA84F773CD91A5D700316491 /* QSCloudKitSyncModel.xcdatamodel */,
+			);
+			name = QSCloudKitSyncModel.xcdatamodeld;
+			path = SyncKit/Classes/CoreData/QSCloudKitSyncModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

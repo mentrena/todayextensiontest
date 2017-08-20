@@ -1,0 +1,21 @@
+{
+  "iOS" : [
+    {
+      "hash" : "0c51bedbdf709a33104633614d7494a17035887a3ea72fb9eb06ebd760f623ad",
+      "name" : "SyncKitCoreData"
+    }
+  ],
+  "commitish" : "0.5.0",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+    {
+      "hash" : "b60a845eff03e5d95c944641c9f383fe40d3822609c90f49b3e43a9d13e09198",
+      "name" : "SyncKitCoreData"
+    }
+  ]
+}
